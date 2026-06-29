@@ -2268,6 +2268,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 918945912}
   speed: 6
+  gameplayCamera: {fileID: 519420031}
+  playerCollider: {fileID: 918945911}
 --- !u!61 &918945911
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2405,7 +2407,7 @@ Transform:
   m_GameObject: {fileID: 918945909}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2, y: -5, z: -5.8147464}
+  m_LocalPosition: {x: 1.37, y: -4.99, z: -5.8147464}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
