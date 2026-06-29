@@ -2270,6 +2270,7 @@ MonoBehaviour:
   speed: 6
   gameplayCamera: {fileID: 519420031}
   playerCollider: {fileID: 918945911}
+  clampOffset: {x: 1.2, y: -2.2}
 --- !u!61 &918945911
 BoxCollider2D:
   m_ObjectHideFlags: 0

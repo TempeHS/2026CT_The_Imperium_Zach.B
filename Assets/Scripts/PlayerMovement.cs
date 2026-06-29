@@ -41,8 +41,8 @@ public class PlayerMovement : MonoBehaviour
         Vector3 min = gameplayCamera.ViewportToWorldPoint(new Vector3(0f, 0f, zDist));
         Vector3 max = gameplayCamera.ViewportToWorldPoint(new Vector3(1f, 1f, zDist));
 
-        minViewport += new Vector3(clampOffset.x, clampOffset.y, 0f);
-        maxViewport += new Vector3(clampOffset.x, clampOffset.y, 0f);
+        min += new Vector3(clampOffset.x, clampOffset.y, 0f);
+        max += new Vector3(clampOffset.x, clampOffset.y, 0f);
 
         Vector2 extents = GetExtents();
 
