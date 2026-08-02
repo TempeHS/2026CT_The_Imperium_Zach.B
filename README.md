@@ -57,3 +57,4 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 Inspiration, code snippets, etc.
 * [Github md syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [TempeHS Unity template](https://github.com/TempeHS/TempeHS_Unity_DevContainer)
+* [Idle & Walking Animations] (https://www.youtube.com/watch?v=82U4ToJU-28)
