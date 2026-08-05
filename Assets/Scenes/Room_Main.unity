@@ -2647,7 +2647,7 @@ MonoBehaviour:
   speed: 6
   gameplayCamera: {fileID: 519420031}
   playerCollider: {fileID: 918945911}
-  clampOffset: {x: 1.2, y: -2.2}
+  clampOffset: {x: 1.2, y: -1.7}
 --- !u!61 &918945911
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2682,17 +2682,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -4.2, y: 7.35}
+  m_Offset: {x: -3.9, y: 5.8}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 2.1153848, y: -1.3670886}
-    oldSize: {x: 2.6, y: 3.95}
-    newSize: {x: 0.37, y: 0.76}
+    pivot: {x: 1.9035715, y: -0.7853982}
+    oldSize: {x: 2.8, y: 4.52}
+    newSize: {x: 2.8, y: 4.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.6, y: 4}
+  m_Size: {x: 2.8, y: 4.5}
   m_EdgeRadius: 0
 --- !u!50 &918945912
 Rigidbody2D:
@@ -2765,12 +2765,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4134473379031149132, guid: da751af4598b4a44e90877804735c164, type: 3}
+  m_Sprite: {fileID: 7669776161332660694, guid: e000cbfe573d3c848b9359a080593e34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.37, y: 0.76}
+  m_Size: {x: 2.8, y: 4.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

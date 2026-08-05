@@ -213,17 +213,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -4.2, y: 7.35}
+  m_Offset: {x: -3.9, y: 5.8}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 2.1153848, y: -1.3670886}
-    oldSize: {x: 2.6, y: 3.95}
-    newSize: {x: 0.37, y: 0.76}
+    pivot: {x: 1.9035715, y: -0.7853982}
+    oldSize: {x: 2.8, y: 4.52}
+    newSize: {x: 2.8, y: 4.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.6, y: 4}
+  m_Size: {x: 2.8, y: 4.5}
   m_EdgeRadius: 0
 --- !u!50 &373525054
 Rigidbody2D:
@@ -296,12 +296,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4134473379031149132, guid: da751af4598b4a44e90877804735c164, type: 3}
+  m_Sprite: {fileID: 7669776161332660694, guid: e000cbfe573d3c848b9359a080593e34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.37, y: 0.76}
+  m_Size: {x: 2.8, y: 4.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -986,6 +986,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.25}
   m_EdgeRadius: 0
+--- !u!1 &1946992188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1946992189}
+  m_Layer: 0
+  m_Name: Seantor Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1946992189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946992188}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.98832893, y: 1.1614404, z: 0.27776685}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1965950602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1073,3 +1104,4 @@ SceneRoots:
   - {fileID: 1714315137}
   - {fileID: 1461102659}
   - {fileID: 373525056}
+  - {fileID: 1946992189}
