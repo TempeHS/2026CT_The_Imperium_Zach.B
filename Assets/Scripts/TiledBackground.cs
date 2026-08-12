@@ -6,6 +6,8 @@ public class TiledBackground : MonoBehaviour
     public Camera cam;
     public float zInFrontOfCamera = 10f; // with default camera z=-10, result z=0
     public float tileScale = 1f;         // bigger = bigger repeated tiles
+    public float offsetX = 0f;
+    public float offsetY = 0f;
 
     private SpriteRenderer sr;
 
@@ -25,7 +27,7 @@ public class TiledBackground : MonoBehaviour
         sr.size = new Vector2(w / Mathf.Max(0.0001f, tileScale), h / Mathf.Max(0.0001f, tileScale));
 
         Vector3 cp = cam.transform.position;
-        transform.position = new Vector3(cp.x, cp.y, cp.z + zInFrontOfCamera);
+        transform.position = new Vector3(cp.x + offsetX, cp.y + offsetY, cp.z + zInFrontOfCamera);
 
         transform.localScale = new Vector3(tileScale, tileScale, 1f);
     }
