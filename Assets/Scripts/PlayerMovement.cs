@@ -92,11 +92,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void Teleport(Vector2 worldPos)
     {
+        if (rb == null) rb = GetComponent<Rigidbody2D>();
         rb.position = worldPos;
+        rb.linearVelocity = Vector2.zero;
         transform.position = worldPos;
         Physics2D.SyncTransforms();
     }
-
+    
     private Vector2 GetExtents()
     {
         if (playerCollider != null) return playerCollider.bounds.extents;
