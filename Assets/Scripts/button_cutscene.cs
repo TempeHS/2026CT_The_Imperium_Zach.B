@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
@@ -32,6 +33,6 @@ public class VideoIntro : MonoBehaviour
 
     public void ContinueGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadSceneAsync(2);
     }
 }
