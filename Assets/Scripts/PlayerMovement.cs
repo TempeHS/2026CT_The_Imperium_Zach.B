@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -104,5 +105,9 @@ public class PlayerMovement : MonoBehaviour
         if (playerCollider != null) return playerCollider.bounds.extents;
         if (playerSpriteRenderer != null) return playerSpriteRenderer.bounds.extents;
         return Vector2.zero;
+    }
+
+        public void Return_Menu () {
+        SceneManager.LoadSceneAsync(0);
     }
 }
