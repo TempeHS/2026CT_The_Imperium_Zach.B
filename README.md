@@ -2,13 +2,13 @@
 
 | Field | Detail |
 |---|---|
-| **Game Title** | |
-| **Student Name(s)** | |
-| **Class / Course** | |
-| **Repository** | |
-| **Unity Version** | |
-| **Document Version** | |
-| **Date** | |
+| **Game Title** |The Imperium's Mea Culpa|
+| **Student Name(s)** |Zachary B|
+| **Class / Course** |Computing Technology|
+| **Repository** |https://github.com/TempeHS/2026CT_The_Imperium_Zach.B|
+| **Unity Version** |6000.0.58f1|
+| **Document Version** |0.1|
+| **Date** |27/08/2026|
 
 ---
 
@@ -32,12 +32,15 @@
 
 ### 1.1 Genre
 
+Puzzle/Mystery
 
 ### 1.2 Target Audience
 
+15-25 Year Old Males
 
 ### 1.3 Game Summary
 
+You play as a young roman person, in the senate, who must deduce who murdered someone, before they get to you
 
 ### 1.4 Win / Loss Conditions
 | Condition | Description |
