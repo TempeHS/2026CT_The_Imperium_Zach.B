@@ -1940,7 +1940,7 @@ GameObject:
   - component: {fileID: 1473273791}
   - component: {fileID: 1473273793}
   m_Layer: 0
-  m_Name: Background
+  m_Name: Tiled_Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
