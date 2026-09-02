@@ -53,7 +53,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 |---|---|
 | Target Platform | PC |
 | Resolution | |
-| Build Type | |
+| Build Type | Windows 64-Bit |
 
 ---
 
@@ -95,23 +95,26 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 | M1 | Top-Down Movement | 8-Directional movement that allows the player the walk in any direction they want | PlayerMovement.cs |
 | M2 | Main Menu | Allows the user to exit the game, start the game, and open an options panel | MainMenu.cs, Main Menu & Options Panel GameObjects |
 | M3 | Opening Cutscene | A cutscene that plays automatically after the user clicks play, with a button after to continue | ButtonCutscene.cs |
-| M4 | Clamp To Screen | Forces the player to stay on the screen, so that you cannot run off, and a fixed offset because otherwise the clamp is in the wrong place. | PlayerMovement.cs approx lines 53-92, Clamp Offset values on the Player GameObject |
-| M5 | Tiled Background | Attached to a background GameObject, it creates a background repeating one image, size of the images can be adjusted with an offset for the same reason as the clamp | TiledBackground.cs & Tiled_Background GameObject |
-| M6 | Dialogue | 
+| M4 | Clamp To Screen | Forces the player to stay on the screen, so that you cannot run off, and a fixed offset because otherwise the clamp is in the wrong place. | PlayerMovement.cs approx lines 42-108, Clamp Offset values on the Player GameObject |
+| M5 | Tiled Background | Attached to a background GameObject, it creates a background repeating one image, size of the images can be adjusted. Also with an offset for the same reason as the clamp | TiledBackground.cs & Tiled_Background GameObject |
+| M6 | Dialogue | Activates a dialogue text box when the player collides with an NPC | DialogueUI.cs, NPCDialogue |
+| M7 | Different Rooms | When the player interacts with a trigger collider, they teleport right into another scene, which is effectively another 'room'. | PlayerSpawnResolver.cs, RoomTransition2D.cs, SceneTransitionState.cs, SpawnPoint2D.cs, Room_Transition Parent & Children in all 3 Scenes |
+| M8 | Return to Menu Button | When pressed, returns the user to the main menu | PlayerMovement.cs Lines 110-112 & Return_Menu_Button |
 
 ### 3.2 Player Controls
 | Action | Input (Keyboard / Controller) | Description |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+| Walk Right | D / Right Arrow | Move to the right |
+| Walk Left | A / Left Arrow | Move to the left |
+| Walk Up | W / Up Arrow | Move Up |
+| Walk Down | S / Down Arrow | Move Down |
+| Dialogue Next Line | Space Bar | Shows the next line of dialogue text |
 
 ### 3.3 Physics & Collision
 | Feature | Description |
 |---|---|
-| | |
-| | |
+| Box Colliders | Allows the player to collide with objects |
+|  | |
 | | |
 
 ### 3.4 Game Loop
