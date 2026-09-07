@@ -114,23 +114,23 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 | Feature | Description |
 |---|---|
 | Box Colliders | Allows the player to collide with objects |
-|  | |
-| | |
+| Dialogue Boxes | Shows Dialogue when colliding with NPC |
+| Clamp | Prevents the player running off the screen |
 
 ### 3.4 Game Loop
 | Stage | Description |
 |---|---|
-| Start / Initialisation | |
-| Core Loop | |
-| Win / End State | |
-| Restart | |
+| Start / Initialisation | Press play button to start the game |
+| Core Loop | Walk around talking to NPCs |
+| Win / End State | Guess the killer |
+| Restart | Press return to menu button, from there you can play play to start again |
 
-### 3.5 Scoring & Progression
+### 3.5 Scoring & Progression (Not Used)
 | Element | Description |
 |---|---|
-| Scoring System | |
-| Difficulty Progression | |
-| Unlockables / Levels | |
+| Scoring System | N/A |
+| Difficulty Progression | N/A |
+| Unlockables / Levels | N/A |
 
 ---
 
@@ -153,9 +153,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 | Cut Scene | Trigger | Description | Screenshot / Still |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+| Start Game Cutscene | Press play on main menu | A cutscene of the murder happening that we have to investigate | [Start Cutscene](./Assets/Tiles/Screenshots/Cutscene_Start.png) |
 
 > Add screenshot images using: `![Cut Scene Name](./docs/screenshots/cutscene_name.png)`
 
@@ -217,8 +215,8 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 ### 5.1 Music
 | Track | Scene / Trigger | Source / Composer |
 |---|---|---|
-| | | |
-| | | |
+| Background Music | Main Menu | Carter D |
+|  | | |
 
 ### 5.2 Sound Effects
 | Sound Effect | Trigger | Source |
@@ -242,7 +240,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 ### 6.1 HUD Elements
 | Element | Purpose | Screenshot |
 |---|---|---|
-| | | |
+| Return to menu button | Returns user to main menu | [Menu Button](./Assets/Tiles/Screenshots/Screenshot%202026-09-07%20114205.png) |
 | | | |
 | | | |
 
@@ -251,10 +249,10 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 ### 6.2 Menus
 | Menu | Purpose | Screenshot |
 |---|---|---|
-| Main Menu | | |
+| Main Menu | Allows user to quit, start the game, & view options panel | [Main Menu](./Assets/Tiles/Screenshots/Main%20Menu.png) |
 | Pause Menu | | |
 | Game Over Screen | | |
-| | | |
+
 
 > Add screenshot images using: `![Menu Name](./docs/screenshots/menu_name.png)`
 
@@ -265,10 +263,10 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 ### 7.1 Scene List
 | Scene Name | Purpose | Description |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+| Main Menu | Functions as the main menu for the game | Contains an animated background, quit, play buttons, & an options panel  |
+| Cutscene_Start | A cutscene at the start of the game | Plays a cutscene video, then pops up a play button after video finishes to continue the game |
+| Room_Main | The main room, where most of the game will be played | Where the player spawns, and is in between the other 2 rooms |
+| Room_Left | Room to the left of the main one |  |
 
 ### 7.2 Level / Environment Screenshots
 | Level / Area | Description | Screenshot |
