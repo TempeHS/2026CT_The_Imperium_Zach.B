@@ -16,12 +16,11 @@ public class RoomTransition2D : MonoBehaviour
 
         nextAllowedTriggerTime = Time.time + triggerCooldown;
 
-        Debug.Log($"[RoomTransition2D] '{gameObject.name}' triggered. Loading scene:'{targetSceneName}', spawn:'{targetSpawnId}'");
+        Debug.Log("[RoomTransition2D] '{gameObject.name}' triggered. Loading scene:'{targetSceneName}', spawn:'{targetSpawnId}'");
 
         SceneTransitionState.PendingSpawnId = targetSpawnId;
 
-        if (!string.IsNullOrWhiteSpace(targetSceneName) &&
-            targetSceneName != SceneManager.GetActiveScene().name)
+        if (!string.IsNullOrWhiteSpace(targetSceneName) && targetSceneName != SceneManager.GetActiveScene().name)
         {
             SceneManager.LoadScene(targetSceneName);
             return;

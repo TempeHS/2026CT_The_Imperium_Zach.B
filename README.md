@@ -7,7 +7,7 @@
 | **Class / Course** |Computing Technology|
 | **Repository** |https://github.com/TempeHS/2026CT_The_Imperium_Zach.B|
 | **Unity Version** |6000.0.58f1|
-| **Document Version** |0.1|
+| **Document Version** |0.16767676767676767|
 | **Date** |27/08/2026|
 
 ---
@@ -136,7 +136,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 ## 4. Visual Features
 
-### 4.1 Particle Effects
+### 4.1 Particle Effects [Not Applicable]
 
 | Effect Name | Purpose | Screenshot |
 |---|---|---|
@@ -163,15 +163,14 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 | Animation | Object / Character | Description | Screenshot |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+| Senators | Senators | The senators move | [Senator Animation](./Assets/Tiles/Screenshots/Seantor%20Animation.png) |
+| Main Menu Background | Background | An animated background | [Menu Background](./Assets/Tiles/Screenshots/Main%20Room.png) |
 
 > Add screenshot images using: `![Animation Name](./docs/screenshots/animation_name.png)`
 
 ---
 
-### 4.4 Lighting & Post-Processing
+### 4.4 Lighting & Post-Processing [Not Applicable]
 
 | Feature | Description | Screenshot |
 |---|---|---|
@@ -183,7 +182,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 ---
 
-### 4.5 Shaders & Materials
+### 4.5 Shaders & Materials [Not Applicable]
 
 | Shader / Material | Applied To | Description | Screenshot |
 |---|---|---|---|
@@ -240,7 +239,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 ### 6.1 HUD Elements
 | Element | Purpose | Screenshot |
 |---|---|---|
-| Return to menu button | Returns user to main menu | [Menu Button](./Assets/Tiles/Screenshots/Screenshot%202026-09-07%20114205.png) |
+| Return to menu button | Returns user to main menu | [Menu Button](./Assets/Tiles/Screenshots/Return%20Menu%20Button.png) |
 | | | |
 | | | |
 
@@ -266,23 +265,24 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 | Main Menu | Functions as the main menu for the game | Contains an animated background, quit, play buttons, & an options panel  |
 | Cutscene_Start | A cutscene at the start of the game | Plays a cutscene video, then pops up a play button after video finishes to continue the game |
 | Room_Main | The main room, where most of the game will be played | Where the player spawns, and is in between the other 2 rooms |
-| Room_Left | Room to the left of the main one |  |
+| Room_Left | Room to the left of the main | A room with the senate seats, and 2 other senators, not much else |
+| Room_Right | Room to the right of the main | Essentially same as the left, just another side room with some senators |
 
 ### 7.2 Level / Environment Screenshots
 | Level / Area | Description | Screenshot |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+| Main Room | The main area of gameplay | [Main Room](./Assets/Tiles/Screenshots/Main%20Room.png) |
+| Left Room | Secondary side room | [Left Room](./Assets/Tiles/Screenshots/Left%20Room.png) |
+| Right Room | Secondary side room | [Right Room](./Assets/Tiles/Screenshots/Right%20Room.png) |
 
 > Add screenshot images using: `![Level Name](./docs/screenshots/level_name.png)`
 
 ### 7.3 Scene Management
 | Feature | Description |
 |---|---|
-| Scene Loading Method | |
-| Persistent Data Between Scenes | |
-| Scene Transition Effects | |
+| Scene Loading Method | SceneManager.LoadSceneAsync |
+| Persistent Data Between Scenes | There is no data here that has to be consistent between scenes |
+| Scene Transition Effects | [Not Used] |
 
 ---
 
@@ -291,11 +291,13 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 ### 8.1 Script Summary
 | Script Name | Attached To | Responsibility |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+| ButtonCutscene.cs | VideoManager Gameobject | When the cutscene ends, it pops up a button for the player to continue the game |
+| PlayerMovement.cs | The Player | Allows the player to move around, and has a clamp, to prevent the player walking off the screen |
+| MainMenu.cs | Main Camera in Main Menu | Allows the buttons on the menu to have functions |
+| DialogueUI.cs | UIManager Empty Gameobject | Locks the player's movement while in the dialogue, and allows to set the font, and dialogue advance keybind |
+| NPCDialogue.cs | Every NPC that has dialogue | Detects when the player interacts with an NPC by checking its tag, and allows to type in the text for the specific NPC |
+| TiledBackground.cs | The object that has to be the background | Makes the Gameobject's sprite repeat, and can adjust the size of the repeating sprite |
+| PlayerSpawnResolver.cs | The Player |  |
 
 ### 8.2 Key Algorithms / Logic
 | Feature | Script | Description |
@@ -330,7 +332,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 ---
 
-## 10. Third-Party Content Acknowledgements
+## 10. Third-Party Content Acknowledgements [Not Applicable in this project]
 
 > All third-party assets (art, audio, fonts, scripts, packages) must be listed here with their licence. Using an asset without acknowledgement may constitute academic misconduct.
 
