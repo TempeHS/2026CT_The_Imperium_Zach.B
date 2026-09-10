@@ -107,7 +107,7 @@ public class PlayerMovement : MonoBehaviour
         return Vector2.zero;
     }
 
-        public void Return_Menu () {
+    public void Return_Menu () {
         SceneManager.LoadSceneAsync(0);
     }
 }
