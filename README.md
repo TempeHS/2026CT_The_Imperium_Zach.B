@@ -22,7 +22,7 @@
 7. [Scene & Level Design](#7-scene--level-design)
 8. [Scripts & Programming](#8-scripts--programming)
 9. [Development Techniques & Tutorials Acknowledged](#9-development-techniques--tutorials-acknowledged)
-10. [Third-Party Content Acknowledgements](#10-third-party-content-acknowledgements)
+10. [Third-Party Content Acknowledgements](#10-third-party-content-acknowledgements) [Not applicable in this project]
 11. [Challenges & Solutions](#11-challenges--solutions)
 12. [Branch Development Summary](#12-branch-development-summary)
 
@@ -215,15 +215,14 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 | Track | Scene / Trigger | Source / Composer |
 |---|---|---|
 | Background Music | Main Menu | Carter D |
-|  | | |
+| Walking | When player walks | Dominic T |
 
 ### 5.2 Sound Effects
 | Sound Effect | Trigger | Source |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+| Collecting.ogg | Collecting an item | Dominic T |
+| Dying.ogg | Dying | Dominic T |
+|  |  |  |
 
 ### 5.3 Audio Implementation
 | Feature | Description |
@@ -249,8 +248,8 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 | Menu | Purpose | Screenshot |
 |---|---|---|
 | Main Menu | Allows user to quit, start the game, & view options panel | [Main Menu](./Assets/Tiles/Screenshots/Main%20Menu.png) |
-| Pause Menu | | |
-| Game Over Screen | | |
+| Pause Menu | (Not Implemented) |
+| Game Over Screen | (Not Implemented) |
 
 
 > Add screenshot images using: `![Menu Name](./docs/screenshots/menu_name.png)`
@@ -297,21 +296,17 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 | DialogueUI.cs | UIManager Empty Gameobject | Locks the player's movement while in the dialogue, and allows to set the font, and dialogue advance keybind |
 | NPCDialogue.cs | Every NPC that has dialogue | Detects when the player interacts with an NPC by checking its tag, and allows to type in the text for the specific NPC |
 | TiledBackground.cs | The object that has to be the background | Makes the Gameobject's sprite repeat, and can adjust the size of the repeating sprite |
-| PlayerSpawnResolver.cs | The Player |  |
+| PlayerSpawnResolver.cs | The Player | Finds the object to teleport to in the next scene, and teleports the player there. |
+| RoomTransition2D.cs | The gameobjects that have the trigger collider for the player to walk into | Detects when the player walks into the trigger, and loads the next scene ready to be teleported |
+| SceneTransitionState.cs | Nothing | Prepares the pendingspawnid variable for other scripts to use |
+| SpawnPoint2D.cs | The spawnpoint gameobjects | Gets the spawnid, so the other scripts know what to teleport to |
 
 ### 8.2 Key Algorithms / Logic
 | Feature | Script | Description |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-
-### 8.3 Design Patterns Used
-| Pattern | Where Applied | Justification |
-|---|---|---|
-| | | |
-| | | |
-| | | |
+| Clamp To Screen | PlayerMovement.cs | Prevents the player running off the screen |
+| Dialogue | DialogueUI.cs & NPCDialogue.cs | Allows the player to pop up dialogue boxes |
+| Tiled Background | TiledBackground.cs | Creates a tiled background gameobject of any sprite you want |
 
 ---
 
@@ -321,7 +316,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 | # | Title | Author / Creator | URL / Source | What You Used It For | What You Changed / Adapted |
 |---|---|---|---|---|---|
-| 1 | | | | | |
+| 1 | Idle and Walking Player Animations - Top Down Unity 2D #2 | Game Code Library | (https://www.youtube.com/watch?v=82U4ToJU-28) | Animations | I used 8-directional movement animations |
 | 2 | | | | | |
 | 3 | | | | | |
 | 4 | | | | | |
