@@ -194,21 +194,6 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 ---
 
-### 4.6 Additional Visual Screenshots
-
-<!--
-  Add any other notable screenshots here.
-  Syntax: ![Description](./docs/screenshots/filename.png)
--->
-
-| Description | Screenshot |
-|---|---|
-| | |
-| | |
-| | |
-
----
-
 ## 5. Audio Design
 
 ### 5.1 Music
@@ -224,7 +209,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 | Dying.ogg | Dying | Dominic T |
 |  |  |  |
 
-### 5.3 Audio Implementation
+### 5.3 Audio Implementation [Not Applicable]
 | Feature | Description |
 |---|---|
 | Audio Mixer / Groups | |
@@ -370,10 +355,10 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 | # | Challenge Encountered | How It Was Solved |
 |---|---|---|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
+| 1 | Unity consistently throwing errors when I tried to implement animations | I found out the version of the software the animations were made on was so old that unity thinks the files are corrupted, so there are now no animations and just a static image |
+| 2 | Doors to other rooms not detecting a player collision | I found out the player gameobjects in the other scenes did not have a "Player" tag, which is what was used to detect collisions with the colliders. |
+| 3 | The clamp to screen being in the wrong place | As the clamp was the right size, but just not in the right spot, I added a fixed offset to it which fixed the issue |
+| 4 | The Tiled Background being half off the screen | Again, added a fixed offset, moving the gameobject does not work as the script resizes it and moves it to the screen area |
 | 5 | | |
 
 ---
