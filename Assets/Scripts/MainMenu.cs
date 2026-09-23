@@ -10,8 +10,4 @@ public class MainMenu : MonoBehaviour
     public void QuitGame () {
         Application.Quit();
     }
-
-    public void Return_Menu () {
-        SceneManager.LoadSceneAsync(0);
-    }
 }
