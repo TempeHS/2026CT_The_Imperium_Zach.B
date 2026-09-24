@@ -11,7 +11,7 @@ public class PlayerSpawnResolver : MonoBehaviour
         if (string.IsNullOrWhiteSpace(SceneTransitionState.PendingSpawnId)) return;
 
         SpawnPoint2D[] points = FindObjectsByType<SpawnPoint2D>(FindObjectsSortMode.None);
-        Debug.Log($"[PlayerSpawnResolver] Found {points.Length} spawn points in scene.");
+        Debug.Log("[PlayerSpawnResolver] Found {points.Length} spawn points in scene.");
 
         foreach (var p in points)
         {

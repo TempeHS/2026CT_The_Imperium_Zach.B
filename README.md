@@ -7,8 +7,8 @@
 | **Class / Course** |Computing Technology|
 | **Repository** |https://github.com/TempeHS/2026CT_The_Imperium_Zach.B|
 | **Unity Version** |6000.0.58f1|
-| **Document Version** |0.16767676767676767|
-| **Date** |27/08/2026|
+| **Document Version** |1|
+| **Date** |24/09/2026|
 
 ---
 
@@ -36,11 +36,11 @@ Puzzle/Mystery
 
 ### 1.2 Target Audience
 
-15-25 Year Old Males
+15-25 Year Old Males that enjoy games that are more of a puzzle. Additionally, people that enjoy historical games.
 
 ### 1.3 Game Summary
 
-You play as a young roman person, in the senate, who must deduce who murdered someone, before they get to you
+You play as a young roman person, in the senate, who must deduce who murdered someone, before they get to you.
 
 ### 1.4 Win / Loss Conditions
 | Condition | Description |
@@ -72,18 +72,19 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 | Field | Detail |
 |---|---|
-| **Video Title** | |
-| **Link / Embed** | |
-| **Duration** | |
-| **Description** | |
+| **Video Title** | CT Game Video |
+| **Link / Embed** | [CT Video](https://drive.google.com/file/d/11L0IpsLAUkDC8RvAo0Y4xG7rRpD4JaVw/view) |
+| **Duration** | 1:28 |
+| **Description** | A Quick Showcase of all the features in my game |
 
 ### 2.2 Feature Highlight Clips
 
-| Clip | Description | Link |
-|---|---|---|
-| | | |
-| | | |
-| | | |
+| Clip | Description |
+|---|---|
+| 0:12 - 0:20 | Shows The opening cutscene |
+| 0:25 | Shows NPC Dialogue |
+| 0:37 - 0:39 | Shows the player seamlessy walking through into another room, which is in another scene |
+| 1:08 | Shows the return to menu button |
 
 ---
 
@@ -138,12 +139,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 ### 4.1 Particle Effects [Not Applicable]
 
-| Effect Name | Purpose | Screenshot |
-|---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+Particle effects were not required in this project.
 
 > Add screenshot images using: `![Effect Name](./docs/screenshots/effect_name.png)`
 
@@ -153,7 +149,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 | Cut Scene | Trigger | Description | Screenshot / Still |
 |---|---|---|---|
-| Start Game Cutscene | Press play on main menu | A cutscene of the murder happening that we have to investigate | [Start Cutscene](./Assets/Tiles/Screenshots/Cutscene_Start.png) |
+| Start Game Cutscene | Press play on main menu | A cutscene of the murder happening that we have to investigate | ![Start Cutscene](./Assets/Tiles/Screenshots/Cutscene_Start.png) |
 
 > Add screenshot images using: `![Cut Scene Name](./docs/screenshots/cutscene_name.png)`
 
@@ -163,8 +159,8 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 | Animation | Object / Character | Description | Screenshot |
 |---|---|---|---|
-| Senators | Senators | The senators move | [Senator Animation](./Assets/Tiles/Screenshots/Seantor%20Animation.png) |
-| Main Menu Background | Background | An animated background | [Menu Background](./Assets/Tiles/Screenshots/Main%20Room.png) |
+| Senators | Senators | The senators move | ![Senator Animation](./Assets/Tiles/Screenshots/Seantor%20Animation.png) |
+| Main Menu Background | Background | An animated background | ![Menu Background](./Assets/Tiles/Screenshots/Main%20Menu.png) |
 
 > Add screenshot images using: `![Animation Name](./docs/screenshots/animation_name.png)`
 
@@ -172,11 +168,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 ### 4.4 Lighting & Post-Processing [Not Applicable]
 
-| Feature | Description | Screenshot |
-|---|---|---|
-| | | |
-| | | |
-| | | |
+No lighting other than the default was needed.
 
 > Add screenshot images using: `![Feature Name](./docs/screenshots/lighting_name.png)`
 
@@ -184,11 +176,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 ### 4.5 Shaders & Materials [Not Applicable]
 
-| Shader / Material | Applied To | Description | Screenshot |
-|---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+Shaders were not needed for this project
 
 > Add screenshot images using: `![Shader Name](./docs/screenshots/shader_name.png)`
 
@@ -223,16 +211,14 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 ### 6.1 HUD Elements
 | Element | Purpose | Screenshot |
 |---|---|---|
-| Return to menu button | Returns user to main menu | [Menu Button](./Assets/Tiles/Screenshots/Return%20Menu%20Button.png) |
-| | | |
-| | | |
+| Return to menu button | Returns user to main menu | ![Menu Button](./Assets/Tiles/Screenshots/Return%20Menu%20Button.png) |
 
 > Add screenshot images using: `![HUD Element](./docs/screenshots/hud_name.png)`
 
 ### 6.2 Menus
 | Menu | Purpose | Screenshot |
 |---|---|---|
-| Main Menu | Allows user to quit, start the game, & view options panel | [Main Menu](./Assets/Tiles/Screenshots/Main%20Menu.png) |
+| Main Menu | Allows user to quit, start the game, & view options panel | ![Main Menu](./Assets/Tiles/Screenshots/Main%20Menu.png) |
 | Pause Menu | (Not Implemented) |
 | Game Over Screen | (Not Implemented) |
 
@@ -255,9 +241,9 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 ### 7.2 Level / Environment Screenshots
 | Level / Area | Description | Screenshot |
 |---|---|---|
-| Main Room | The main area of gameplay | [Main Room](./Assets/Tiles/Screenshots/Main%20Room.png) |
-| Left Room | Secondary side room | [Left Room](./Assets/Tiles/Screenshots/Left%20Room.png) |
-| Right Room | Secondary side room | [Right Room](./Assets/Tiles/Screenshots/Right%20Room.png) |
+| Main Room | The main area of gameplay | ![Main Room](./Assets/Tiles/Screenshots/Main%20Room.png) |
+| Left Room | Secondary side room | ![Left Room](./Assets/Tiles/Screenshots/Left%20Room.png) |
+| Right Room | Secondary side room | ![Right Room](./Assets/Tiles/Screenshots/Right%20Room.png) |
 
 > Add screenshot images using: `![Level Name](./docs/screenshots/level_name.png)`
 
@@ -301,53 +287,16 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 | # | Title | Author / Creator | URL / Source | What You Used It For | What You Changed / Adapted |
 |---|---|---|---|---|---|
-| 1 | Idle and Walking Player Animations - Top Down Unity 2D #2 | Game Code Library | (https://www.youtube.com/watch?v=82U4ToJU-28) | Animations | I used 8-directional movement animations |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
+| 1 | Idle and Walking Player Animations - Top Down Unity 2D #2 | Game Code Library | (https://www.youtube.com/watch?v=82U4ToJU-28) | Animations | I used 8-directional movement animations, instead of 4, as in the video |
+
 
 ---
 
 ## 10. Third-Party Content Acknowledgements [Not Applicable in this project]
 
+There was no third-party content that needed to be downloaded in this project.
+
 > All third-party assets (art, audio, fonts, scripts, packages) must be listed here with their licence. Using an asset without acknowledgement may constitute academic misconduct.
-
-### 10.1 Visual Assets
-| Asset Name | Type | Creator / Source | Licence | URL | Used For |
-|---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
-
-### 10.2 Audio Assets
-| Asset Name | Type | Creator / Source | Licence | URL | Used For |
-|---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
-
-### 10.3 Scripts & Code Snippets
-| Script / Snippet | Source | Licence | URL | Used For | Changes Made |
-|---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-
-### 10.4 Unity Packages & Plugins
-| Package Name | Version | Source | Licence | URL | Purpose |
-|---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
-
-### 10.5 Fonts
-| Font Name | Creator / Source | Licence | URL |
-|---|---|---|---|
-| | | | |
-| | | | |
 
 ---
 
@@ -359,7 +308,6 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 | 2 | Doors to other rooms not detecting a player collision | I found out the player gameobjects in the other scenes did not have a "Player" tag, which is what was used to detect collisions with the colliders. |
 | 3 | The clamp to screen being in the wrong place | As the clamp was the right size, but just not in the right spot, I added a fixed offset to it which fixed the issue |
 | 4 | The Tiled Background being half off the screen | Again, added a fixed offset, moving the gameobject does not work as the script resizes it and moves it to the screen area |
-| 5 | | |
 
 ---
 
@@ -375,164 +323,8 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 |---|---|
 | **Branch Name** | `main` |
 | **Purpose** | Stable, releasable version of the game |
-| **Merged From** | |
-| **Final Commit** | |
-
----
-
-### Branch 2 — `feature/`
-
-| Field | Detail |
-|---|---|
-| **Branch Name** | |
-| **Feature Developed** | |
-| **Merged Into** | |
-| **Date Started** | |
-| **Date Merged** | |
-
-#### What Was Built
-<!-- Describe what this branch added or changed -->
-
-#### Key Commits
-| Commit Message | What Changed |
-|---|---|
-| | |
-| | |
-| | |
-
-#### Problems Encountered & Resolved
-| Problem | Resolution |
-|---|---|
-| | |
-| | |
-
-#### Screenshot / Evidence
-<!-- Add a screenshot of the feature working -->
-> `![Feature Name](./docs/screenshots/branch_feature_name.png)`
-
----
-
-### Branch 3 — `feature/`
-
-| Field | Detail |
-|---|---|
-| **Branch Name** | |
-| **Feature Developed** | |
-| **Merged Into** | |
-| **Date Started** | |
-| **Date Merged** | |
-
-#### What Was Built
-
-
-#### Key Commits
-| Commit Message | What Changed |
-|---|---|
-| | |
-| | |
-| | |
-
-#### Problems Encountered & Resolved
-| Problem | Resolution |
-|---|---|
-| | |
-| | |
-
-#### Screenshot / Evidence
-> `![Feature Name](./docs/screenshots/branch_feature_name.png)`
-
----
-
-### Branch 4 — `feature/`
-
-| Field | Detail |
-|---|---|
-| **Branch Name** | |
-| **Feature Developed** | |
-| **Merged Into** | |
-| **Date Started** | |
-| **Date Merged** | |
-
-#### What Was Built
-
-
-#### Key Commits
-| Commit Message | What Changed |
-|---|---|
-| | |
-| | |
-| | |
-
-#### Problems Encountered & Resolved
-| Problem | Resolution |
-|---|---|
-| | |
-| | |
-
-#### Screenshot / Evidence
-> `![Feature Name](./docs/screenshots/branch_feature_name.png)`
-
----
-
-### Branch 5 — `feature/`
-
-| Field | Detail |
-|---|---|
-| **Branch Name** | |
-| **Feature Developed** | |
-| **Merged Into** | |
-| **Date Started** | |
-| **Date Merged** | |
-
-#### What Was Built
-
-
-#### Key Commits
-| Commit Message | What Changed |
-|---|---|
-| | |
-| | |
-| | |
-
-#### Problems Encountered & Resolved
-| Problem | Resolution |
-|---|---|
-| | |
-| | |
-
-#### Screenshot / Evidence
-> `![Feature Name](./docs/screenshots/branch_feature_name.png)`
-
----
-
-### Branch 6 — `feature/`
-
-| Field | Detail |
-|---|---|
-| **Branch Name** | |
-| **Feature Developed** | |
-| **Merged Into** | |
-| **Date Started** | |
-| **Date Merged** | |
-
-#### What Was Built
-
-
-#### Key Commits
-| Commit Message | What Changed |
-|---|---|
-| | |
-| | |
-| | |
-
-#### Problems Encountered & Resolved
-| Problem | Resolution |
-|---|---|
-| | |
-| | |
-
-#### Screenshot / Evidence
-> `![Feature Name](./docs/screenshots/branch_feature_name.png)`
+| **Merged From** | TempeHS/TempeHS_Unity_DevContainer |
+| **Final Commit** | 24/09/2026 |
 
 ---
 
@@ -542,12 +334,7 @@ You play as a young roman person, in the senate, who must deduce who murdered so
 
 | Branch Name | Feature | Date Started | Date Merged | Status |
 |---|---|---|---|---|
-| `main` | Stable release | | | |
-| `feature/` | | | | |
-| `feature/` | | | | |
-| `feature/` | | | | |
-| `feature/` | | | | |
-| `feature/` | | | | |
+| `main` | Stable release | 17/06/2026 | Present | Active |
 
 ---
 
